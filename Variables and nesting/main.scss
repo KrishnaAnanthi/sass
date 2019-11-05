@@ -1,0 +1,35 @@
+$primary-color : green;
+$hover-color: blue;
+$text-color : red;
+$text-color2 : #fff;
+$bg-color: #ff0;
+
+h1 {
+    color: $primary-color
+}
+
+nav {
+    ul {
+        background: $bg-color;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+
+    }
+
+    a {
+        color: $text-color;
+        display: inline-block;
+        padding: 10px 5px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background: $hover-color;
+        color: $text-color2;
+    }
+}
